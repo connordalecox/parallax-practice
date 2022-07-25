@@ -1,0 +1,14 @@
+.hero {
+    min-height: 600px;
+    background-image: url(../img/bike.jpg);
+    background-size: cover;
+}
+.short {
+    height: 120px;
+}
+.small {
+    height: 200px;
+}
+.tall {
+    height: 400px;
+}
