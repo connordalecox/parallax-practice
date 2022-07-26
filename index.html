@@ -21,13 +21,13 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-info">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <h1 class="d-inline-block lead text-light">Road Trip</h1>
           </a>
           <button 
-            class="navbar-toggler"
+            class="navbar-toggler bg-light"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarcontent"
@@ -39,11 +39,11 @@
           <div class="collapse navbar-collapse" id="navbarcontent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="navitem">
-                <a class="nav-link active" aria-current="page" href="#jumbotron">Home</a>
+                <a class="nav-link activ text-light" aria-current="page" href="#jumbotron">Home</a>
               </li>
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-link dropdown-toggle text-light"
                   href="#"
                   id="navbarDropdown"
                   role="button"
@@ -52,12 +52,11 @@
                 >
                   Sections
                 </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Section 1</a></li>
-                  <li><a class="dropdown-item" href="#">Section 1</a></li>
-                  <li><a class="dropdown-item" href="#">Section 1</a></li>
-                  <li><a class="dropdown-item" href="#">Section 1</a></li>
-                  <li><a class="dropdown-item" href="#">Section 1</a></li>
+                <ul class="dropdown-menu bg-dark bg-opacity-25 ul-width">
+                  <li><a class="dropdown-item text-light hoverb" href="#place1">Mountains</a></li>
+                  <li><a class="dropdown-item text-light hoverb" href="#place2">Beach</a></li>
+                  <li><a class="dropdown-item text-light hoverb" href="#place3">Desert</a></li>
+                  <li><a class="dropdown-item text-light hoverb" href="#place4">City</a></li>
                 </ul>
               </li>
             </ul>
@@ -65,7 +64,61 @@
         </div>
       </nav>
     </header>
-   
+    <section class="container-fluid parallax hero vh-100">
+      <div class="row justify-content-center align-items-center vh-100">
+        <div class="col-9 p-5 text-center text-light">
+          <h1 class="title-text" id="main-text">This is Road Trip</h1>
+        </div>
+      </div>
+    </section>
+    <!--Places-->
+    <div class="container-fluid parallax parallax1" id="place1">
+      <div class="row justify-content-center align-items-center vh-100">
+        <div class="col-6 p-4 text-center trvael-card bg-opacity-75 bg-dark text-light">
+          <p class="h1 mb-4">Mountains</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus tempore adipisci corrupti quas, delectus harum provident aliquam voluptate atque odio odit, asperiores aspernatur ullam. Esse, omnis?</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid parallax parallax2" id="place2">
+      <div class="row justify-content-center align-items-center vh-100">
+        <div class="col-6 p-4 text-center trvael-card bg-opacity-75 bg-dark text-light">
+          <p class="h1 mb-4">Beach</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus tempore adipisci corrupti quas, delectus harum provident aliquam voluptate atque odio odit, asperiores aspernatur ullam. Esse, omnis?</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid parallax parallax3" id="place3">
+      <div class="row justify-content-center align-items-center vh-100">
+        <div class="col-6 p-4 text-center trvael-card bg-opacity-75 bg-dark text-light">
+          <p class="h1 mb-4">Desert</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus tempore adipisci corrupti quas, delectus harum provident aliquam voluptate atque odio odit, asperiores aspernatur ullam. Esse, omnis?</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid parallax parallax4" id="place4">
+      <div class="row justify-content-center align-items-center vh-100">
+        <div class="col-6 p-4 text-center trvael-card bg-opacity-75 bg-dark text-light">
+          <p class="h1 mb-4">City</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus tempore adipisci corrupti quas, delectus harum provident aliquam voluptate atque odio odit, asperiores aspernatur ullam. Esse, omnis?</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid footer">
+      <div class="row justify-content-center align-items-center bg-danger text-light">
+          <div class="col p-4 text-center">
+              <p class="h1 mb-5">Contact</p>
+              <i class="fa-brands fa-twitter icon m-2"></i>
+              <i class="fa-brands fa-facebook-f icon m-2"></i>
+              <i class="fa-brands fa-instagram icon m-2"></i>
+              <p class="mt-5">Images from Unsplash</p>
+          </div>
+      </div>
+  </div>
 
 
   

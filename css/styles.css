@@ -1,14 +1,46 @@
 .hero {
     min-height: 600px;
-    background-image: url(../img/bike.jpg);
+    background-image: url(../img/beach.webp);
     background-size: cover;
 }
-.short {
-    height: 120px;
+
+.parallax{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+ .parallax1 {
+    background-image: url(../img/mountains.jpeg);
+    background-size: cover;
+ }
+
+ .parallax2 {
+    background-image: url(../img/beach1.webp);
+    background-size: cover;
+ }
+ .parallax3 {
+    background-image: url(../img/desert.jpeg);
+    background-size: cover;
+ }
+
+ .parallax4 {
+    background-image: url(../img/city.jpeg);
+    background-size: cover;
+ }
+
+ #main-text {
+    font-family: 'Lobster', cursive;
+    font-size: 5rem;
+  }
+body {
+    font-family: 'Open Sans', sans-serif;
 }
-.small {
-    height: 200px;
+
+.hoverb:hover {
+    background-color: black;
 }
-.tall {
-    height: 400px;
+.ul-width {
+    width: fit-content;
 }
